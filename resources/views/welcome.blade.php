@@ -44,7 +44,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         {{-- <img src="img/logosido.png" alt=""> --}}
-        <img src="assets/img/logosido-removebg-preview.png" class="img-fluid" alt="">
+        <img src="{{ asset('assets/user/img/logosido-removebg-preview.png') }}" class="img-fluid" alt="">
         {{-- <span>SIDORA</span> --}}
       </a>
 
@@ -81,7 +81,7 @@
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/dokpmi.png" class="img-fluid" alt="">
+            <img src="{{ asset('assets/user/img/dokpmi.png') }}" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="{{ asset('assets/user/img/about.jpg') }}" class="img-fluid" alt="">
           </div>
 
         </div>
@@ -202,7 +202,7 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="box">
-              <img src="assets/img/values-1.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/values-1.png') }}" class="img-fluid" alt="">
               <h3>Ad cupiditate sed est odio</h3>
               <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
             </div>
@@ -210,7 +210,7 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
             <div class="box">
-              <img src="assets/img/values-2.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/values-2.png') }}" class="img-fluid" alt="">
               <h3>Voluptatem voluptatum alias</h3>
               <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
             </div>
@@ -218,7 +218,7 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
             <div class="box">
-              <img src="assets/img/values-3.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/values-3.png') }}" class="img-fluid" alt="">
               <h3>Fugit cupiditate alias nobis.</h3>
               <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
             </div>
@@ -246,7 +246,7 @@
         <div class="row">
 
           <div class="col-lg-6">
-            <img src="assets/img/features.png" class="img-fluid" alt="">
+            <img src="{{ asset('assets/user/img/features.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
@@ -367,7 +367,7 @@
           </div>
 
           <div class="col-lg-6">
-            <img src="assets/img/features-2.png" class="img-fluid" alt="">
+            <img src="{{ asset('assets/user/img/features-2.png') }}" class="img-fluid" alt="">
           </div>
 
         </div><!-- End Feature Tabs -->
@@ -379,7 +379,7 @@
           <div class="row">
 
             <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-              <img src="assets/img/features-3.png" class="img-fluid p-4" alt="">
+              <img src="{{ asset('assets/user/img/features-3.png') }}" class="img-fluid p-4" alt="">
             </div>
 
             <div class="col-xl-8 d-flex content">
@@ -464,7 +464,7 @@
             <div class="box">
               <h3 style="color: #07d5c0;">Free Plan</h3>
               <div class="price"><sup>$</sup>0<span> / mo</span></div>
-              <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/pricing-free.png') }}" class="img-fluid" alt="">
               <ul>
                 <li>Aida dere</li>
                 <li>Nec feugiat nisl</li>
@@ -481,7 +481,7 @@
               <span class="featured">Featured</span>
               <h3 style="color: #65c600;">Starter Plan</h3>
               <div class="price"><sup>$</sup>19<span> / mo</span></div>
-              <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/pricing-starter.png') }}" class="img-fluid" alt="">
               <ul>
                 <li>Aida dere</li>
                 <li>Nec feugiat nisl</li>
@@ -497,7 +497,7 @@
             <div class="box">
               <h3 style="color: #ff901c;">Business Plan</h3>
               <div class="price"><sup>$</sup>29<span> / mo</span></div>
-              <img src="assets/img/pricing-business.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/pricing-business.png') }}" class="img-fluid" alt="">
               <ul>
                 <li>Aida dere</li>
                 <li>Nec feugiat nisl</li>
@@ -513,7 +513,7 @@
             <div class="box">
               <h3 style="color: #ff0071;">Ultimate Plan</h3>
               <div class="price"><sup>$</sup>49<span> / mo</span></div>
-              <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/pricing-ultimate.png') }}" class="img-fluid" alt="">
               <ul>
                 <li>Aida dere</li>
                 <li>Nec feugiat nisl</li>
@@ -665,12 +665,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/portfolio/portfolio-1.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                  <a href="{{ asset('assets/user/img/portfolio/portfolio-1.jpg') }}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -679,7 +679,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
@@ -693,12 +693,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                  <a href="{{ asset('assets/user/img/portfolio/portfolio-3.jpg') }}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -707,12 +707,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                  <a href="{{ asset('assets/img/portfolio/portfolio-4.jpg') }}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -721,12 +721,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/portfolio/portfolio-5.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+                  <a href="{{ asset('assets/user/img/portfolio/portfolio-5.jpg') }}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -735,12 +735,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                  <a href="{{ asset('assets/user/img/portfolio/portfolio-6.jpg') }}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -749,12 +749,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/portfolio/portfolio-7.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 1</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
+                  <a href="{{ asset('assets/user/img/portfolio/portfolio-7.jpg') }}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -763,12 +763,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 3</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
+                  <a href="{{ asset('assets/user/img/portfolio/portfolio-8.jpg') }}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -777,12 +777,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('assets/user/img/portfolio/portfolio-9.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="{{ asset('assets/img/portfolio/portfolio-9.jpg') }}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -817,7 +817,7 @@
                   Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <img src="{{ asset('assets/user/img/testimonials/testimonials-1.jpg') }}" class="testimonial-img" alt="">
                   <h3>Saul Goodman</h3>
                   <h4>Ceo &amp; Founder</h4>
                 </div>
@@ -833,7 +833,7 @@
                   Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <img src="{{ asset('assets/user/img/testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
                   <h3>Sara Wilsson</h3>
                   <h4>Designer</h4>
                 </div>
@@ -849,7 +849,7 @@
                   Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <img src="{{ asset('assets/user/img/testimonials/testimonials-3.jpg') }}" class="testimonial-img" alt="">
                   <h3>Jena Karlis</h3>
                   <h4>Store Owner</h4>
                 </div>
@@ -865,7 +865,7 @@
                   Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <img src="{{ asset('assets/user/img/testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
                   <h3>Matt Brandon</h3>
                   <h4>Freelancer</h4>
                 </div>
@@ -881,7 +881,7 @@
                   Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <img src="{{ asset('assets/user/img/testimonials/testimonials-5.jpg') }}" class="testimonial-img" alt="">
                   <h3>John Larson</h3>
                   <h4>Entrepreneur</h4>
                 </div>
