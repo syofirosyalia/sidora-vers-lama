@@ -4,7 +4,7 @@
 <script src="{{asset('assets/admin/plugins/bootstrap/js/bootstrap.bundle.min.js')}} "></script>
 <!-- overlayScrollbars -->
 <script src="{{asset('assets/admin/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
-<!-- AdminLTE App -->
+<!-- adminLTE App -->
 <script src="{{asset('assets/admin/dist/js/adminlte.js')}}"></script>
 
 <!-- PAGE PLUGINS -->
@@ -16,9 +16,9 @@
 <!-- ChartJS -->
 <script src="{{asset('assets/admin/plugins/chart.js/Chart.min.js')}}"></script>
 
-<!-- AdminLTE for demo purposes -->
+<!-- adminLTE for demo purposes -->
 <script src="{{asset('assets/admin/dist/js/demo.js')}}"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<!-- adminLTE dashboard demo (This is only for demo purposes) -->
 <script src="{{asset('assets/admin/dist/js/pages/dashboard2.js')}}"></script>
 
 <!-- Bootstrap -->

@@ -42,31 +42,26 @@
                 with font-awesome or any other icon font library -->
                 <li class="nav-item">
                     <a href=""
-                        class="nav-link {{ request()->is('admin/dashboard') ? ' active' : '' }}">
+                        class="nav-link {{ request()->is('user/dashboard') ? ' active' : '' }}">
                         <i class="fas fa-tachometer-alt"></i>
-                        <p> Dashboard</p>
+                        <p>Stok Darah</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a href=""
-                        class="nav-link {{ request()->is('admin/datauser') ? ' active' : '' }}">
+                        class="nav-link {{ request()->is('user/datauser') ? ' active' : '' }}">
                         <i class="fas fa-users"></i>
-                        <p> Data User</p>
+                        <p>Agenda Donor</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a href=""
-                        class="nav-link {{ request()->is('admin/produk') ? ' active' : '' }}">
+                        class="nav-link {{ request()->is('user/produk') ? ' active' : '' }}">
                         <i class="fas fa-box-open"></i>
-                        <p> Data Produk</p>
+                        <p>Riwayat Donor</p>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link {{ request()->is('admin/transaksi') ? ' active' : '' }}">
-                        <i class="fa fa-shopping-cart"></i>
-                        <p> Transaksi</p>
-                    </a>
-                </li>
+                
 
                 {{-- <li class="nav-item">
                     <a href="#" class="nav-link">
